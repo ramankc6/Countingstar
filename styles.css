@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    color: #00704A;
+    text-align: center;
+}
+.toolbar {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutp {
+	font-size: 60px;
+	font-weight: 1000;
+}
+
+#abttitle {
+	margin-top: 0px;
+	font-size: 80px;
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bungee';
+    margin-top: 10px;
+    letter-spacing: 10px;
+    color: #00704A;
+}
+
+#mainlogo {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 530px;
+    height: 515px;
+}
+
+body {
+    background-color: white;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:16;
+    color: #00704A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+
+.logonav {
+    cursor: pointer;
+    width:100px;
+    height: 100px;
+}
+
+.toolbar {
+    list-style: none;
+}
+
+.toolbar li{
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+.toolbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.toolbar li a:hover {
+    color: #0088a9;  
+}
+
+button {
+    padding: 9px 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.section{
+	width: 100%;
+	min-height: 100vh;
+	background-color: white;
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 45px;
+	margin-top: 0px;
+	position: relative;
+}
+.content-section .content h3{
+	margin-top: 10px;
+	color:#5d5d5d;
+	font-size: 21px;
+	font-family: 'Bungee';
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 30px;
+	line-height: 1.5;
+	font-weight: 900;
+}
+.content-section .content .button{
+	margin-top: 30px;
+}
+.content-section .content .button a{
+	background-color: #3d3d3d;
+	padding:12px 40px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.content-section .content .button a:hover{
+	background-color: #a52a2a;
+	color:#fff;
+}
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+.coming{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 65px;
+    font-family: 'Bungee';
+}
+
+.soon{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 65px;
+    font-family: 'Bungee';
+}
+
+.appimg {
+	width: 80%;
+	height: 80%;
+}
+
+.content-section .content h1 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#downloadbutton {
+	align-items: center;
+	font-size: 30px;
+}
+
+h1 form button {
+	font-size: 30px;
+}
